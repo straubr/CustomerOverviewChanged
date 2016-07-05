@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>TTO CustomerOverviewChanged</Name>
+    <Version>1.0.0</Version>
+    <Framework>5.x</Framework>
+    <Vendor>TTO GmbH</Vendor>
+    <URL>http://otrs.org/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">Adds the column "changed" to the customer overview.</Description>
+    <Description Lang="de">Fügt die Spalte "Geändert" der Kundenübersicht hinzu.</Description>
+    <BuildDate>?</BuildDate>
+    <BuildHost>?</BuildHost>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Config/Files/TTO_Customer_OverviewChanged.xml"/>
+        <File Permission="644" Location="Custom/Kernel/Modules/CustomerTicketOverview.pm"/>
+        <File Permission="644" Location="Custom/Kernel/Output/HTML/Templates/Standard/CustomerTicketOverview.tt"/>
+    </Filelist>
+</otrs_package>
